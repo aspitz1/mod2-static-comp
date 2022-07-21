@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Static Comp</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/favicon.ico">
+        <script src="https://kit.fontawesome.com/43f7169d0c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <nav class="nav-bar">
+                <img class="head-shot" src="images/cat-headshot.jpeg" alt="black and white cat in front of a green wall with paws on a log of bamboo looking straight into the camara">
+                <figcaption class="user-name-wrapper">
+                    <p class="user-name">Mr. Whiskers <i class="fa-solid fa-angle-down"></i></p>
+                </figcaption>
+                <section class="user-main">
+                    <lable class="nav-btn">Main</lable>
+                    <button><i class="fa-solid fa-house"></i>HOME</button>
+                    <button><i class="fa-solid fa-briefcase"></i>JOBS</button>
+                    <button><i class="fa-solid fa-file"></i>RESUMES</button>
+                    <button><i class="fa-solid fa-list-check"></i>TASKS</button>
+                    <button><i class="fa-solid fa-calendar-days"></i>CALANDER</button>
+                </section>
+                <section class="user-admin">
+                    <lable class="nav-btn">Admin</lable>
+                    <button><i class="fa-solid fa-users"></i>USERS</button>
+                    <button><i class="fa-solid fa-location-dot"></i>LOCATION</button>
+                    <button><i class="fa-solid fa-network-wired"></i>WORKFLOWS</button>
+                    <button><i class="fa-solid fa-newspaper"></i>JOB BOARDS</button>
+                    <button><i class="fa-solid fa-share-nodes"></i>SOCIAL</button>
+                </section>
+                <section class="categories">
+                    <form class="user-categories">
+                        <label class="check-box-lable">
+                            <input type="checkbox">Administrative
+                        </label>
+                        <label class="check-box-lable">
+                            <input type="checkbox" class="check-box">Design
+                        </label>
+                        <label class="check-box-lable">
+                            <input type="checkbox" class="check-box">Executive
+                        </label>
+                        <label class="check-box-lable">
+                            <input type="checkbox" class="check-box">Human Resources
+                        </label>
+                    </form>
+                </section>
+            </nav>
+            <main class="main-section">
+                <header class="header-nav">
+                    <button aria-label="Open Main Menu" class="header-nav-btn"><i class="fa-solid fa-bars"></i></button>
+                    <div class="search-icon-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </div>
+                    <input type="text" name="search" class="search-bar" placeholder="Search for job, task or resume"></i>
+                    <button aria-lable="Add User" class="header-nav-btn"><i class="fa-solid fa-user-plus"></i></button>
+                    <button aria-label="Add Note" class="header-nav-btn"><i class="fa-solid fa-note-sticky"></i></button>
+                    <button aria-label="Quick View" class="header-nav-btn"><i class="fa-solid fa-grip"></i></button>
+                </header>
+                <div class="heading-wrapper">
+                    <div>
+                        <h1>Customer Service Representative</h1>
+                        <p><i class="fa-solid fa-location-dot"></i>Ciorani, Romania - <a class="link" href="#">Preview this post</a></p>
+                    </div>
+                    <div>
+                        <button class="open-btn"><i class="fa-solid fa-box-open"></i>OPEN</button>
+                        <button aria-lable="Bookmark" class="heading-btn"><i class="fa-solid fa-bookmark"></i></button>
+                        <button aria-lable="Edit" class="heading-btn"><i class="fa-solid fa-pencil"></i></button>
+                        <button aria-lable="Delete" class="heading-btn"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+                <button class="section-tab">SUMMARY</button>
+                <button class="section-tab">APPLICANTS</button>
+                <button class="section-tab">JOB BOARD</button>
+                <button class="section-tab">INTERVIEWS</button>
+                <button class="section-tab">ACTIVITY</button>
+                <button class="section-tab">BROADCAST</button>
+                <button class="section-tab">NOTIFICATIONS</button>
+                <section class="graph">
+
+                </section>
+                <div class="divider-wrapper">
+                    <span class="bar"></span>
+                    <div class="button-border">
+                        <button aria-lable="Collapse Graphs" class="graph-btn"><i class="fa-solid fa-angle-up"></i></button>
+                    </div>
+                    <span class="bar"></span>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
