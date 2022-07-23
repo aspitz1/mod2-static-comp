@@ -15,34 +15,34 @@
                     <p class="user-name">Mr. Whiskers <i class="fa-solid fa-angle-down"></i></p>
                 </figcaption>
                 <section class="user-main">
-                    <lable class="nav-btn">Main</lable>
-                    <button><i class="fa-solid fa-house"></i>HOME</button>
-                    <button><i class="fa-solid fa-briefcase"></i>JOBS</button>
-                    <button><i class="fa-solid fa-file"></i>RESUMES</button>
-                    <button><i class="fa-solid fa-list-check"></i>TASKS</button>
-                    <button><i class="fa-solid fa-calendar-days"></i>CALANDER</button>
+                    <lable class="nav-lable">Main</lable>
+                    <button class="nav-btn"><i class="fa-solid fa-house"></i>HOME</button>
+                    <button class="nav-btn"><i class="fa-solid fa-briefcase"></i>JOBS</button>
+                    <button class="nav-btn"><i class="fa-solid fa-file"></i>RESUMES</button>
+                    <button class="nav-btn"><i class="fa-solid fa-list-check"></i>TASKS</button>
+                    <button class="nav-btn"><i class="fa-solid fa-calendar-days"></i>CALANDER</button>
                 </section>
                 <section class="user-admin">
-                    <lable class="nav-btn">Admin</lable>
-                    <button><i class="fa-solid fa-users"></i>USERS</button>
-                    <button><i class="fa-solid fa-location-dot"></i>LOCATION</button>
-                    <button><i class="fa-solid fa-network-wired"></i>WORKFLOWS</button>
-                    <button><i class="fa-solid fa-newspaper"></i>JOB BOARDS</button>
-                    <button><i class="fa-solid fa-share-nodes"></i>SOCIAL</button>
+                    <lable class="nav-lable">Admin</lable>
+                    <button class="nav-btn"><i class="fa-solid fa-users"></i>USERS</button>
+                    <button class="nav-btn"><i class="fa-solid fa-location-dot"></i>LOCATION</button>
+                    <button class="nav-btn"><i class="fa-solid fa-network-wired"></i>WORKFLOWS</button>
+                    <button class="nav-btn"><i class="fa-solid fa-newspaper"></i>JOB BOARDS</button>
+                    <button class="nav-btn"><i class="fa-solid fa-share-nodes"></i>SOCIAL</button>
                 </section>
                 <section class="categories-checkboxs">
                     <form class="user-categories">
-                        <label class="check-box-lable">
-                            <input type="checkbox">Administrative
+                        <label class="checkbox-lable">
+                            <input class="checkbox" type="checkbox">Administrative
                         </label>
-                        <label class="check-box-lable">
-                            <input type="checkbox" class="check-box">Design
+                        <label class="checkbox-lable">
+                            <input class="checkbox" type="checkbox">Design
                         </label>
-                        <label class="check-box-lable">
-                            <input type="checkbox" class="check-box">Executive
+                        <label class="checkbox-lable">
+                            <input class="checkbox" type="checkbox">Executive
                         </label>
-                        <label class="check-box-lable">
-                            <input type="checkbox" class="check-box">Human Resources
+                        <label class="checkbox-lable">
+                            <input class="checkbox" type="checkbox">Human Resources
                         </label>
                     </form>
                 </section>
@@ -54,13 +54,13 @@
                         <i class="fa-solid fa-magnifying-glass search-icon"></i>
                     </div>
                     <input type="text" name="search" class="search-bar" placeholder="Search for job, task or resume"></i>
-                    <button aria-lable="Add User" class="header-nav-btn"><i class="fa-solid fa-user-plus"></i></button>
+                    <button aria-lable="Add User" class="header-nav-btn add-user"><i class="fa-solid fa-user-plus"></i></button>
                     <button aria-label="Add Note" class="header-nav-btn"><i class="fa-solid fa-note-sticky"></i></button>
-                    <button aria-label="Quick View" class="header-nav-btn"><i class="fa-solid fa-grip"></i></button>
+                    <button aria-label="Quick View" class="header-nav-btn quick-view-btn"><i class="fa-solid fa-grip"></i></button>
                 </header>
                 <div class="heading-wrapper">
-                    <div>
-                        <h1>Customer Service Representative</h1>
+                    <div class="app-heading-wrapper">
+                        <h1 class="app-heading">Customer Service Representative</h1>
                         <p><i class="fa-solid fa-location-dot"></i>Ciorani, Romania - <a class="link" href="#">Preview this post</a></p>
                     </div>
                     <div>
@@ -70,78 +70,19 @@
                         <button aria-lable="Delete" class="heading-btn"><i class="fa-solid fa-trash-can"></i></button>
                     </div>
                 </div>
-                <button class="section-tab">SUMMARY</button>
-                <button class="section-tab">APPLICANTS</button>
-                <button class="section-tab">JOB BOARD</button>
-                <button class="section-tab">INTERVIEWS</button>
-                <button class="section-tab">ACTIVITY</button>
-                <button class="section-tab">BROADCAST</button>
-                <button class="section-tab">NOTIFICATIONS</button>
-                <section class="graph">
-
+                <div class="tab-wrapper">
+                    <button class="section-tab">SUMMARY</button>
+                    <button class="section-tab">APPLICANTS</button>
+                    <button class="section-tab">JOB BOARD</button>
+                    <button class="section-tab">INTERVIEWS</button>
+                    <button class="section-tab">ACTIVITY</button>
+                    <button class="section-tab">BROADCAST</button>
+                    <button class="section-tab">NOTIFICATIONS</button>
+                    <section class="graph">
+                </div>
                 </section>
                 <article class="graph-wrapper">
-                    <figure class="circle-graphs">
-                        <div class="circle-graph-wrapper">
-                            <div roll="img" alt="Circle graph showing how many applicants have applied" class="outer-circle">
-                                <div class="inner-circle">
-                                    <p>3,154</p>
-                                    <p>APPLICANTS</p>
-                                </div>
-                            </div>
-                            <div roll="img" alt="Circle graph showing how many people have interviewed" class="outer-circle">
-                                <div class="inner-circle">
-                                    <p>1,546</p>
-                                    <p>INTERVIEWS</p>
-                                </div>
-                            </div>
-                            <div roll="img" alt="Circle graph showing how many useres have shared the listing" class="outer-circle">
-                                <div class="inner-circle">
-                                    <p>912</p>
-                                    <p>FORWARDS</p>
-                                </div>
-                            </div>
-                        </div>
-                        <figcaption class="circle-graph-caption">TOTALS- Out of 5,231 views</figcaption>
-                    </figure>
-                    <figure role="img" alt="Bar graph showing how many applicants by day" class="bar-graph">
-                        <div class="values">
-                            <div aria-hidden="true">500</div>
-                            <div aria-hidden="true">600</div>
-                            <div aria-hidden="true">300</div>
-                            <div aria-hidden="true">200</div>
-                            <div aria-hidden="true">100</div>
-                            <div aria-hidden="true">0</div>
-                        </div>
-                        <div class="bar-graph-bar bar-one"></div>
-                        <div class="bar-graph-bar bar-two"></div>
-                        <div class="bar-graph-bar bar-three"></div>
-                        <div class="bar-graph-bar bar-four"></div>
-                        <div class="bar-graph-bar bar-five"></div>
-                        <div class="bar-graph-bar bar-six"></div>
-                        <div class="bar-graph-bar bar-seven"></div>
-                        <div class="bar-graph-bar bar-eight"></div>
-                        <div class="bar-graph-bar bar-nine"></div>
-                        <div class="bar-graph-bar bar-ten"></div>
-                        <div class="bar-graph-bar bar-eleven"></div>
-                        <div class="bar-graph-bar bar-twelve"></div>
-                        <div class="bar-graph-bar bar-thirteen"></div>
-                        <div class="bar-graph-bar bar-fourteen"></div>
-                        <div aria-hidden="true" class="day day-one">S</div>
-                        <div aria-hidden="true" class="day day-two">M</div>
-                        <div aria-hidden="true" class="day day-three">T</div>
-                        <div aria-hidden="true" class="day day-four">W</div>
-                        <div aria-hidden="true" class="day day-five">T</div>
-                        <div aria-hidden="true" class="day day-six">F</div>
-                        <div aria-hidden="true" class="day day-seven">S</div>
-                        <div aria-hidden="true" class="day day-eight">S</div>
-                        <div aria-hidden="true" class="day day-nine">M</div>
-                        <div aria-hidden="true" class="day day-ten">T</div>
-                        <div aria-hidden="true" class="day day-eleven">W</div>
-                        <div aria-hidden="true" class="day day-twelve">T</div>
-                        <div aria-hidden="true" class="day day-thirteen">F</div>
-                        <div aria-hidden="true" class="day day-fourteen">S</div>
-                    </figure>
+                    
                 </article>
                 <div class="divider-wrapper">
                     <span class="bar"></span>
@@ -150,87 +91,93 @@
                 </div>
                 <div class="job-link-wrapper">
                     <article class="job-description-article">
-                        <header class="job-description-header">
-                            <h2>JOB DESCRIPTION</h2>
-                            <button><i class="fa-solid fa-pencil"></i>EDIT</button>
-                        </header>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>POSTION TITLE</p>
-                            <P>Customer Service Representative</P>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>LOCATION</p>
-                            <p>Ciorani, Romania</p>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>EMPLOYMENT-TYPE</p>
-                            <p>Full-Time</p>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>EXPERIENCE</p>
-                            <p>Mid-Level</p>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>STATUS</p>
-                            <p>Open</p>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>DESCRIPTION</p>
-                            <p>Plan steps for world domination attempt to leap between furniture but woefully miscalibrate and bellyflop onto the
-                            floor; what's your problem? i meant to do that now i shall wash myself intently. And sometimes switches in french and
-                            say "miaou" just because well why not. Look at dog hiiiiiisssss this is the day yet jump up to edge of bath, fall in
-                            then scramble in a mad panic to get out, and mouse why must they do that, yet sit on human meow. Cuddle no cuddle cuddle
-                            love scratch scratch. Stand in front of the computer screen ooh, are those your $250 dollar sandals?</p>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>HIRING LEAD</p>
-                            <figure class="boss-wrapper">
-                                <img class="boss-headshot" src="images/bosscat.jpg" alt="Orange long hair cat who is the hiring manager">
-                                <figcaption>Boss Kitty</figcaption>
-                            </figure>
-                        </div>
-                        <span class="bar"></span>
-                        <div class="job-description">
-                            <p>APPROVED SALARY</p>
-                            <p>$58,000</p>
+                        <div class="job-wrapper">
+                            <div class="job-heading-wrapper">
+                                <h2>JOB DESCRIPTION</h2>
+                                <button class="job-edit-btn"><i class="fa-solid fa-pencil"></i>EDIT</button>
+                            </div>
+                            <span class="bar"></span>
+                            <div class="article-wrapper">
+                                <div class="sub-job-wrapper">
+                                    <div class="job-description">
+                                        <p>POSTION TITLE</p>
+                                        <P>Customer Service Representative</P>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>LOCATION</p>
+                                        <p>Ciorani, Romania</p>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>EMPLOYMENT-TYPE</p>
+                                        <p>Full-Time</p>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>EXPERIENCE</p>
+                                        <p>Mid-Level</p>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>STATUS</p>
+                                        <p>Open</p>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>DESCRIPTION</p>
+                                        <p>Plan steps for world domination attempt to leap between furniture but woefully miscalibrate and bellyflop onto the
+                                        floor; what's your problem? i meant to do that now i shall wash myself intently. And sometimes switches in french and
+                                        say "miaou" just because well why not. Look at dog hiiiiiisssss this is the day yet jump up to edge of bath, fall in
+                                        then scramble in a mad panic to get out, and mouse why must they do that, yet sit on human meow. Cuddle no cuddle cuddle
+                                        love scratch scratch. Stand in front of the computer screen ooh, are those your $250 dollar sandals?</p>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>HIRING LEAD</p>
+                                        <figure class="boss-wrapper">
+                                            <img class="boss-headshot" src="images/bosscat.jpg" alt="Orange long hair cat who is the hiring manager">
+                                            <figcaption>Boss Kitty</figcaption>
+                                        </figure>
+                                    </div>
+                                    <span class="bar"></span>
+                                    <div class="job-description">
+                                        <p>APPROVED SALARY</p>
+                                        <p>$58,000</p>
+                                    </div>
+                                </div>
+                                <aside class="links">
+                                    <button class="link-btn"><i class="fa-brands fa-facebook-f"></i>Post to Facebook</button>
+                                    <button class="link-btn"><i class="fa-brands fa-twitter"></i>Tweet this job</button>
+                                    <button class="link-btn"><i class="fa-brands fa-linkedin"></i>Post to Linkedin</button>
+                                    <section class="link-input-tag">
+                                        <p><i class="fa-solid fa-earth-europe"></i>Link to this Job</p>
+                                        <p>Ragdoll lion, for donskoy siberian. Tom ocicat. Tom himalayan cornish rex yet ragdoll.</p>
+                                        <div class="link-btn-wrapper">
+                                            <p>http://tomcat-savannah/sit...</p>
+                                            <button class="copy-btn">Copy</button>
+                                        </div>
+                                    </section>
+                                    <span class="bar"></span>
+                                    <section class="link-input-tag">
+                                        <p><i class="fa-solid fa-laptop-code"></i>Use the Button Widget</p>
+                                        <p>Russian blue tabby so kitten so turkish angora russian blue singapura. Russian blue tiger british shorthair for tom so
+                                        himalayan thai so savannah. Ragdoll manx burmese.</p>
+                                        <div class="link-btn-wrapper">
+                                            <p>&ltscript type="text/javascript"s...</p>
+                                            <button class="copy-btn">Copy</button>
+                                        </div>
+                                    </section>
+                                    <span class="bar"></span>
+                                    <section class="link-input-tag">
+                                        <p><i class="fa-solid fa-paper-plane"></i>Upload Resumes by Email</p>
+                                        <p>Persian american shorthair, and abyssinian yet burmese.</p>
+                                        <p>meow-boss@gmail.com</p>
+                                    </section>
+                                </aside>
+                            </div>
                         </div>
                     </article>
-                    <aside class="links">
-                        <button class="link-btn"><i class="fa-brands fa-facebook-f"></i>Post to Facebook</button>
-                        <button class="link-btn"><i class="fa-brands fa-twitter"></i>Tweet this job</button>
-                        <button class="link-btn"><i class="fa-brands fa-linkedin"></i>Post to Linkedin</button>
-                        <section class="link-input-tag">
-                            <p><i class="fa-solid fa-earth-europe"></i>Link to this Job</p>
-                            <p>Ragdoll lion, for donskoy siberian. Tom ocicat. Tom himalayan cornish rex yet ragdoll.</p>
-                            <div class="link-btn-wrapper">
-                                <p>http://tomcat-savannah/sit...</p>
-                                <button class="copy-btn">Copy</button>
-                            </div>
-                        </section>
-                        <span class="bar"></span>
-                        <section class="link-input-tag">
-                            <p><i class="fa-solid fa-laptop-code"></i>Use the Button Widget</p>
-                            <p>Russian blue tabby so kitten so turkish angora russian blue singapura. Russian blue tiger british shorthair for tom so
-                            himalayan thai so savannah. Ragdoll manx burmese.</p>
-                            <div class="link-btn-wrapper">
-                                <p>&ltscript type="text/javascript"s...</p>
-                                <button class="copy-btn">Copy</button>
-                            </div>
-                        </section>
-                        <span class="bar"></span>
-                        <section class="link-input-tag">
-                            <p><i class="fa-solid fa-paper-plane"></i>Upload Resumes by Email</p>
-                            <p>Persian american shorthair, and abyssinian yet burmese.</p>
-                            <p>meow-boss@gmail.com</p>
-                        </section>
-                    </aside>
                 </div>
             </main>
         </div>
