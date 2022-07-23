@@ -1,7 +1,9 @@
-$grey: #363732;
-$lightGrey: #55564E;
+$grey: #555650;
+$darkGray: #31322e;
+$lightGrey: #9a9c90;
 $blue: #66C3FF;
-$offWhite: #DCE1E9;
+$darkBlue: #0060a0;
+$offWhite: #e9f1ff;
 
 *,
 *::before,
@@ -241,7 +243,7 @@ $offWhite: #DCE1E9;
 }
 
 .link {
-    color: $blue;
+    color: $darkBlue;
     text-decoration: none;
 }
 
@@ -283,14 +285,14 @@ $offWhite: #DCE1E9;
 .job-heading-wrapper {
     padding: 10px;
     color: #fff;
-    background-color: $lightGrey;
+    background-color: $grey;
 }
 
 .job-edit-btn {
     margin-left: 5px;
     padding: 5px;
     color: $offWhite;
-    background-color: $grey;
+    background-color: $darkGray;
     border: none;
     border-radius: 3px;
     &:hover {

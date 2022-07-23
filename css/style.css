@@ -45,7 +45,7 @@
 }
 
 .nav-bar {
-  background-color: #55564E;
+  background-color: #9a9c90;
   width: 15vw;
   height: 100%;
 }
@@ -88,7 +88,7 @@
 }
 .nav-btn:hover {
   cursor: pointer;
-  background-color: #363732;
+  background-color: #555650;
 }
 
 .main-section,
@@ -107,7 +107,7 @@
 }
 
 .search-icon-wrapper {
-  border-right: solid 1px #55564E;
+  border-right: solid 1px #9a9c90;
 }
 
 .quick-view-btn {
@@ -115,17 +115,17 @@
 }
 
 .add-user {
-  border-left: solid 1px #55564E;
+  border-left: solid 1px #9a9c90;
 }
 
 .header-nav {
-  border-bottom: solid 1px #55564E;
+  border-bottom: solid 1px #9a9c90;
 }
 
 .heading-btn,
 .open-btn {
   margin-right: 20px;
-  border: solid 1px #55564E;
+  border: solid 1px #9a9c90;
 }
 
 .open-btn {
@@ -187,14 +187,14 @@
 .search-icon-wrapper,
 .heading-wrapper,
 .tab-wrapper {
-  background-color: #DCE1E9;
+  background-color: #e9f1ff;
 }
 
 .header-nav-btn,
 .heading-btn,
 .open-btn,
 .section-tab {
-  background-color: #DCE1E9;
+  background-color: #e9f1ff;
 }
 
 .section-tab {
@@ -215,7 +215,7 @@
   margin: 20px;
   width: 60px;
   aspect-ratio: 1/1;
-  border: solid 1px #55564E;
+  border: solid 1px #9a9c90;
 }
 .graph-btn:hover {
   cursor: pointer;
@@ -234,7 +234,7 @@
 }
 
 .link {
-  color: #66C3FF;
+  color: #0060a0;
   text-decoration: none;
 }
 
@@ -251,7 +251,7 @@
 .bar {
   width: 100%;
   height: 1px;
-  background-color: #55564E;
+  background-color: #9a9c90;
 }
 
 .job-link-wrapper {
@@ -266,7 +266,7 @@
 
 .job-wrapper {
   flex-direction: column;
-  background-color: #DCE1E9;
+  background-color: #e9f1ff;
 }
 
 .sub-job-wrapper {
@@ -276,14 +276,14 @@
 .job-heading-wrapper {
   padding: 10px;
   color: #fff;
-  background-color: #55564E;
+  background-color: #555650;
 }
 
 .job-edit-btn {
   margin-left: 5px;
   padding: 5px;
-  color: #DCE1E9;
-  background-color: #363732;
+  color: #e9f1ff;
+  background-color: #31322e;
   border: none;
   border-radius: 3px;
 }
