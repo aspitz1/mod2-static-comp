@@ -17,6 +17,7 @@
 .divider-wrapper,
 .button-border,
 .article-wrapper,
+.graph-wrapper,
 .job-heading-wrapper,
 .job-description-article,
 .job-wrapper,
@@ -24,7 +25,8 @@
 .job-description-header,
 .job-link-wrapper,
 .links,
-.link-btn-wrapper {
+.link-btn-wrapper,
+.link-btn {
   display: flex;
 }
 
@@ -157,6 +159,21 @@
 .main-section {
   float: right;
   overflow: scroll;
+}
+
+.graph-wrapper {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.circle-graph {
+  width: auto;
+}
+
+.bar-graph {
+  width: 400px;
 }
 
 .app-heading-wrapper {
@@ -297,7 +314,8 @@
 }
 
 .job-description {
-  margin-right: 80px;
+  margin: 10px 80px 20px 0px;
+  padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -312,15 +330,83 @@
 }
 
 .links {
+  margin: 0px 20px 0px 20px;
   flex-direction: column;
+  width: 30%;
 }
 
-.links {
-  width: 30%;
+.link-btn {
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: large;
+  color: #fff;
+}
+.link-btn:hover {
+  cursor: pointer;
+}
+
+.facebook-btn {
+  margin-top: 10px;
+  background-color: #3c5a99;
+}
+
+.twitter-btn {
+  background-color: #00acee;
+}
+
+.linkedin-btn {
+  background-color: #0072b1;
 }
 
 .link-btn-wrapper {
   align-items: center;
+}
+
+.links-input-tag {
+  margin: 10px 0px 10px 0px;
+}
+
+.link-description {
+  margin-bottom: 10px;
+}
+
+.link-btn-wrapper {
+  align-items: stretch;
+}
+.link-btn-wrapper p {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+  border: solid 1px #9a9c90;
+}
+.link-btn-wrapper button {
+  margin-bottom: 10px;
+  padding: 5px;
+  color: #fff;
+  background-color: #0060a0;
+  border: none;
+  border-radius: 3px;
+}
+.link-btn-wrapper button:hover {
+  cursor: pointer;
+}
+
+.copy-email {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+  border: solid 1px #9a9c90;
+}
+.copy-email:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
